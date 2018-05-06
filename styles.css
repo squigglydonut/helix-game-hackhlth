@@ -9,7 +9,7 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
-    margin: 300px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 #buttons {
@@ -100,4 +100,10 @@ body {
 }
 .button5:hover {
   box-shadow: 0 4px 15px rgba(33,33,33,.2); 
+}
+
+.title {
+	background-image: url("images/bg-image.png");
+    background-position: center;
+    width: 100%;
 }
