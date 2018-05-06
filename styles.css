@@ -9,13 +9,12 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
-    margin: auto;
+    margin: 300px 0 0 0;
 }
 
 #buttons {
 	text-align: center;
 	margin: 2rem;
-	border-radius: 5px;
 }
 
 .button1 {
@@ -27,6 +26,12 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+.button1:hover {
+  box-shadow: 0 4px 15px rgba(33,33,33,.2); 
 }
 
 .button2 {
@@ -38,6 +43,12 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+.button2:hover {
+  box-shadow: 0 4px 15px rgba(33,33,33,.2); 
 }
 
 .button3 {
@@ -49,6 +60,12 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+.button3:hover {
+  box-shadow: 0 4px 15px rgba(33,33,33,.2); 
 }
 
 .button4 {
@@ -60,6 +77,12 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+.button4:hover {
+  box-shadow: 0 4px 15px rgba(33,33,33,.2); 
 }
 
 .button5 {
@@ -71,4 +94,10 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+.button5:hover {
+  box-shadow: 0 4px 15px rgba(33,33,33,.2); 
 }
